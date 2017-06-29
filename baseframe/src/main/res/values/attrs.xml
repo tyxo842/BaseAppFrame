@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--土豪金样式-->
+    <declare-styleable name="ShimmerView">
+        <attr name="reflectionColor" format="color"/>
+    </declare-styleable>
+
+    <!--音乐播放器-->
+    <string-array name="res_names">
+        <item>http://file.bmob.cn/M03/7F/F0/oYYBAFdFYh-AE_J1AI_wXc_rRqI724.mp3</item>
+        <item>http://file.bmob.cn/M03/01/1F/oYYBAFb4h0uAQLufAE8BpAeKTGE542.mp3</item>
+        <item>http://file.bmob.cn/M03/80/B6/oYYBAFdHmiWABL4BADxZu1-oiaw235.mp3</item>
+        <item>http://file.bmob.cn/M03/46/32/oYYBAFcfB32AJzVZAFK420C4ZHM831.mp3</item>
+        <item>http://file.bmob.cn/M03/46/31/oYYBAFcfBwaAKJ4xAE6zxHaI3uM740.mp3</item>
+        <item>http://file.bmob.cn/M03/19/96/oYYBAFcEqXiAEqtYADz8HHZWiM4012.mp3</item>
+    </string-array>
+    <string-array name="dis_names">
+        <item>意外 - 薛之谦</item>
+        <item>小孩 - 薛之谦</item>
+        <item>时光倒回 - 郑恺</item>
+        <item>一个人的北京 - 好妹妹乐队</item>
+        <item>可不可以爱我 - 卢学睿</item>
+        <item>陪你度过漫长的岁月 - 陈奕迅</item>
+    </string-array>
+
+    <!--页面右下角 图标动画-->
+    <declare-styleable name="GooeyMenu">
+        <attr name="no_of_menu" format="integer" />
+        <attr name="fab_radius" format="dimension" />
+        <attr name="menu_radius" format="dimension" />
+        <attr name="gap_between_menu_fab" format="dimension" />
+        <attr name="menu_drawable" format="reference" />
+    </declare-styleable>
+
+    <!--ArcMenu-->
+    <attr name="fromDegrees" format="float|reference" />
+    <attr name="toDegrees" format="float|reference" />
+    <attr name="childSize" format="dimension|reference" />
+    <declare-styleable name="ArcLayout">
+        <attr name="fromDegrees"/>
+        <attr name="toDegrees"/>
+        <attr name="childSize"/>
+    </declare-styleable>
+    <declare-styleable name="ArcMenu">
+        <attr name="fromDegrees"/>
+        <attr name="toDegrees"/>
+        <attr name="childSize"/>
+    </declare-styleable>
+    <declare-styleable name="RayLayout">
+        <attr name="leftHolderWidth" format="dimension" />
+    </declare-styleable>
+
+    <!-- circleimageview -->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+    </declare-styleable>
+
+    <!--smooth pic-->
+    <declare-styleable name="card">
+        <attr name="itemMarginTop" format="dimension" />
+        <attr name="bottomMarginTop" format="dimension" />
+        <attr name="yOffsetStep" format="dimension" />
+        <attr name="widthHeightRate" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+
+        <!--自定义indicator样式-->
+        <attr name="item_count" format="integer"/>
+        <attr name="text" format="string" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_origin_color" format="color|reference" />
+
+    </declare-styleable>
+    <declare-styleable name="DropDownMenu">
+
+        <attr name="ddunderlineColor" format="color"/>
+        <attr name="dddividerColor" format="color"/>
+        <attr name="ddtextSelectedColor" format="color"/>
+        <attr name="ddtextUnselectedColor" format="color"/>
+        <attr name="ddmenuBackgroundColor" format="color"/>
+        <attr name="ddmaskColor" format="color"/>
+        <attr name="ddmenuTextSize" format="dimension"/>
+        <attr name="ddmenuSelectedIcon" format="reference"/>
+        <attr name="ddmenuUnselectedIcon" format="reference"/>
+    </declare-styleable>
+
+    <!--progressBar -->
+    <declare-styleable name="RotateLoading">
+        <attr name="loading_width" format="dimension"/>
+        <attr name="loading_color" format="color"/>
+        <attr name="shadow_position" format="integer"/>
+        <attr name="loading_speed" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="BannerLayoutStyle">
+        <attr name="selectedIndicatorColor" format="color|reference" />
+        <attr name="unSelectedIndicatorColor" format="color|reference" />
+        <attr name="indicatorShape" format="enum">
+            <enum name="rect" value="0" />
+            <enum name="oval" value="1" />
+        </attr>
+
+        <attr name="selectedIndicatorHeight" format="dimension|reference" />
+        <attr name="selectedIndicatorWidth" format="dimension|reference" />
+
+        <attr name="unSelectedIndicatorHeight" format="dimension|reference" />
+        <attr name="unSelectedIndicatorWidth" format="dimension|reference" />
+
+        <attr name="indicatorPosition" format="enum">
+            <enum name="centerBottom" value="0" />
+            <enum name="rightBottom" value="1" />
+            <enum name="leftBottom" value="2" />
+            <enum name="centerTop" value="3" />
+            <enum name="rightTop" value="4" />
+            <enum name="leftTop" value="5" />
+        </attr>
+
+        <attr name="indicatorSpace" format="dimension|reference" />
+        <attr name="indicatorMargin" format="dimension|reference" />
+        <attr name="autoPlayDuration" format="integer|reference" />
+        <attr name="scrollDuration" format="integer|reference" />
+        <attr name="isAutoPlay" format="boolean"/>
+        <attr name="defaultImage" format="integer|reference"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="AddSubView">
+        <attr name="addStr" format="string"/>
+        <attr name="subStr" format="string"/>
+        <attr name="addSrc" format="reference"/>
+        <attr name="subSrc" format="reference"/>
+
+        <attr name="maxEms" format="integer"/>
+        <attr name="minEms" format="integer"/>
+        <attr name="number" format="integer"/>
+
+        <attr name="clearBtntext" format="boolean"/>
+        <attr name="editable" format="boolean"/>
+        <attr name="isSubToRight" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ClickActionEditText">
+        <attr name="leftSrc" format="reference"/>
+        <attr name="rightSrc" format="reference"/>
+        <attr name="srcVisiable" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="BarCodeRuleItemView">
+        <attr name="leftText" format="string|reference" />
+        <attr name="textColorLeft" format="color|reference" />
+        <attr name="textColorMiddle" format="color|reference" />
+        <attr name="fontSize" format="dimension|reference" />
+        <attr name="middleWidgetType" format="enum" >
+            <enum name="textView" value="0" />
+            <enum name="editView" value="1" />
+        </attr>
+        <attr name="middleWidgetVisiable" format="boolean" />
+        <attr name="middleWidgetText" format="string|reference" />
+        <attr name="rightImageViewVisiable" format="boolean" />
+        <attr name="rightWidgetRes" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SegmentControl">
+        <attr name="cornerRadius" format="dimension|reference" />
+        <attr name="selectedBackgroundColors" format="color|reference" />
+        <attr name="selectedTextColors" format="color|reference" />
+        <attr name="texts" format="string|reference" />
+        <attr name="android:textSize" />
+        <attr name="direction" format="enum">
+            <enum name="horizon" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="gaps" format="dimension|reference" />
+        <attr name="horizonGap" format="dimension|reference" />
+        <attr name="verticalGap" format="dimension|reference" />
+        <attr name="selectedIndex" format="integer" />
+    </declare-styleable>
+
+</resources>
